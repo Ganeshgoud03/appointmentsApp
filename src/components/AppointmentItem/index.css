@@ -1,0 +1,66 @@
+/* Write your CSS here */
+
+@media (max-width: 576px) {
+  .list-item {
+    background-color: transparent;
+    border: 2px solid #b5b7c4;
+    border-radius: 20px;
+    height: 30%;
+    width: 120%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-left: -15%;
+    margin-bottom: 20px;
+  }
+
+  .head1 {
+    font-size: 22px;
+    color: #171f46;
+    font-weight: 600;
+  }
+
+  .para1 {
+    color: #b5b7c4;
+    font-weight: 600;
+  }
+
+  .btn2 {
+    border: none;
+    background-color: transparent;
+  }
+}
+
+@media (min-width: 576px) {
+  .list-item {
+    background-color: transparent;
+    border: 2px solid #b5b7c4;
+    border-radius: 20px;
+    height: 20%;
+    width: 28%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-left: -3%;
+    margin-right: 60px;
+    margin-bottom: 20px;
+  }
+
+  .head1 {
+    font-size: 22px;
+    color: #171f46;
+    font-weight: 600;
+  }
+
+  .para1 {
+    color: #b5b7c4;
+    font-weight: 600;
+  }
+
+  .btn2 {
+    border: none;
+    background-color: transparent;
+  }
+}

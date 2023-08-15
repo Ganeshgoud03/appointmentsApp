@@ -1,0 +1,261 @@
+/* Write your CSS here */
+@media (max-width: 576px) {
+  .bg-container {
+    background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+  }
+
+  .container {
+    background-color: #ffffff;
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+    padding: 20px;
+    overflow: scroll;
+  }
+
+  .top-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 40%;
+  }
+
+  .heading {
+    color: #171f46;
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  .card-container {
+    height: 100%;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .title {
+    color: #b5b7c4;
+    font-size: 16px;
+    padding-bottom: 5px;
+    font-weight: 500;
+  }
+
+  input[type='text'] {
+    height: 30%;
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+
+  .date {
+    color: #b5b7c4;
+    font-size: 16px;
+    padding-bottom: 5px;
+    font-weight: 500;
+  }
+
+  .date-input {
+    height: 30%;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .btn {
+    margin-top: 20px;
+    height: 40px;
+    width: 80px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #8b5cf6;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .image-container {
+    display: none;
+  }
+
+  .appointment-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .head-element {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .head {
+    color: #171f46;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .btn1 {
+    border: 2px solid #9897f0;
+    color: #9897f0;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    background-color: transparent;
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .list-container {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+@media (min-width: 576px) {
+  .bg-container {
+    background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+  }
+
+  .container {
+    background-color: #ffffff;
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+    padding: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    overflow: scroll;
+  }
+
+  .top-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 60%;
+  }
+
+  .heading {
+    color: #171f46;
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  .card-container {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    align-self: center;
+  }
+
+  .title {
+    color: #b5b7c4;
+    font-size: 16px;
+    padding-bottom: 5px;
+    font-weight: 500;
+  }
+
+  input[type='text'] {
+    height: 30%;
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+
+  .date {
+    color: #b5b7c4;
+    font-size: 16px;
+    padding-bottom: 5px;
+    font-weight: 500;
+  }
+
+  .date-input {
+    height: 30%;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .btn {
+    margin-top: 20px;
+    height: 40px;
+    width: 80px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #8b5cf6;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .img {
+    height: 90%;
+    width: 100%;
+  }
+
+  .appointment-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .head-element {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .head {
+    color: #171f46;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .btn1 {
+    border: 2px solid #9897f0;
+    color: #9897f0;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    background-color: transparent;
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .list-container {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
